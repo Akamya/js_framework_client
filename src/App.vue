@@ -5,6 +5,7 @@ import PButton from "./components/primaryButton.vue";
 
 <template>
   <Layout>
+    <p>cc</p>
     <PButton>Coucou</PButton>
   </Layout>
 </template>
