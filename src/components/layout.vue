@@ -1,7 +1,6 @@
 <script setup>
 import Nav from "./nav.vue";
 import Footer from "./footer.vue";
-import PButton from "./primaryButton.vue";
 </script>
 
 <template>
