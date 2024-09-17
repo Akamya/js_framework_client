@@ -1,6 +1,7 @@
 <script setup>
-import Layout from "./components/layout.vue";
+import Layout from "./Layout/layout.vue";
 import PButton from "./components/primaryButton.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
@@ -20,13 +21,14 @@ import PButton from "./components/primaryButton.vue";
       </p>
       <p>
         Découvrez plus d'exemples en visitant
-        <a
+        <RouterView
           href="https://tailwindcss.com/docs"
           class="text-blue-500 hover:underline"
-          >la documentation officielle de Tailwind CSS</a
+          >la documentation officielle de Tailwind CSS</RouterView
         >.
       </p>
     </template>
     <PButton>Cliquez ici</PButton>
+    <RouterView></RouterView>
   </Layout>
 </template>
